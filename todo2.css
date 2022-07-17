@@ -1,0 +1,51 @@
+.hide {
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+}
+.popup {
+    height: 200px;
+    width: 400px;
+    border: 3px solid rgba(236, 5, 5, 0.885);
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px gray;
+    position: absolute;
+    top: 230px;
+    left: 570px;
+    right: 500px;
+}
+#heading {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: rgba(248, 8, 8, 0.915);
+    margin-top: 20px;
+    text-align: center;
+}
+
+#write {
+    position: relative;
+    left: 60px;
+    width: 70%;
+    height: 27px;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    
+}
+ #addnew {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.77);
+    border-radius: 13px;
+    width: 75px;
+    height: 30px;
+    
+    
+    position: relative;
+    left: 165px;
+    top: 15px;
+}
+.addnew{
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
+ 

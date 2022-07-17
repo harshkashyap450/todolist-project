@@ -1,0 +1,147 @@
+
+
+.upper-container {
+    width: 62%;
+    height:10%;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.upper-container1 {
+    width: 35%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#lists{
+    font-size: 40px;
+    margin-left: 10px;
+    color: gray;
+}
+
+.upper-container2 {
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right:0px
+}
+.upper-container2:hover {
+    cursor: pointer;
+}
+
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height:100%;
+    top: 0px;
+    right: 0;
+    font-size: 35px;
+    opacity: 0.5;
+    padding: 28px;
+    
+}
+.add_list {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+.lower-container{
+    display: flex;
+    width: 62%;
+    
+    margin: 60px auto;
+    justify-content: space-between;
+    
+}
+
+.card1{
+    width: 30%;
+    border: 2px solid deeppink;
+    border-radius: 12px;
+    height: 350px;
+    
+    box-shadow: 6px 6px 3px gray;
+    
+}
+
+.heading1:hover {
+  cursor: pointer;
+}
+
+.card2{
+    width: 30%;
+    border: 2px solid deeppink;
+    border-radius: 12px;
+    box-shadow: 6px 6px 3px gray;
+}
+
+
+.card3{
+    width: 30%;
+    border: 2px solid deeppink;
+    border-radius: 12px;
+    box-shadow: 6px 6px 3px gray;
+}
+.heading1 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+    text-decoration: none;
+}
+#heading1 {
+    text-decoration: none;
+}
+.heading2 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+}
+
+.line {
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+
+.para1 {
+    font-size: 29px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: red;
+    text-align: center;
+}
+
+#check1 {
+    margin-left: 35px;
+    width: 17px;
+    height: 17px;
+    
+}
+
+.label1{
+    font-size: 25px;
+}
+
+.next-page {
+    position: absolute;
+    left: 1400px;
+    font-size: 20px;
+    
+}
+
+
+
+
